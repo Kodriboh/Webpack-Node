@@ -8,7 +8,6 @@ module.exports = {
   devtool: 'inline-source-map',
   devServer: {
     static: './dist',
-    port: 3000
   },
   output: {
     filename: 'bundle.js',
